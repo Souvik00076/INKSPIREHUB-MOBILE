@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back_grounds"
     android:padding="@dimen/logsign_padding"
     tools:context=".fragments.LoginFragment">
 
@@ -15,28 +16,34 @@
         android:textSize="@dimen/textsize">
 
         <EditText
+
             android:id="@+id/email_et"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_text_height"
             android:layout_marginStart="@dimen/logsign_x_margin"
             android:layout_marginTop="@dimen/logsign_top_margin"
             android:layout_marginEnd="@dimen/logsign_y_margin"
-            android:background="@android:color/transparent"
+            android:background="@drawable/widgets_desg"
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress"
-            android:padding="@dimen/logsign_padding" />
+            android:padding="@dimen/logsign_padding"
+            android:textAlignment="center"
+            android:textColorHint="@color/white" />
 
         <EditText
+
             android:id="@+id/password_et"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_text_height"
             android:layout_marginStart="@dimen/logsign_x_margin"
             android:layout_marginTop="@dimen/logsign_top_margin"
             android:layout_marginEnd="@dimen/logsign_y_margin"
-            android:background="@android:color/transparent"
+            android:background="@drawable/widgets_desg"
             android:hint="@string/password_hint"
             android:inputType="textPassword"
-            android:padding="@dimen/logsign_padding" />
+            android:padding="@dimen/logsign_padding"
+            android:textAlignment="center"
+            android:textColorHint="@color/white" />
 
 
         <Button
@@ -45,7 +52,9 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/logsign_top_margin"
-            android:text="@string/Login" />
+            android:text="@string/Login"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_desg"/>
 
         <TextView
             android:id="@+id/goto_signup"
@@ -55,6 +64,7 @@
             android:layout_marginTop="@dimen/logsign_top_margin"
             android:clickable="true"
             android:gravity="center"
+            android:textColor="@color/white"
             android:text="@string/dont_have_account" />
     </LinearLayout>
 

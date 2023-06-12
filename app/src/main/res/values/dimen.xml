@@ -2,8 +2,9 @@
 <resources>
     <dimen name="logsign_x_margin">16dp</dimen>
     <dimen name="logsign_y_margin">16dp</dimen>
-    <dimen name="logsign_top_margin">10dp</dimen>
+    <dimen name="logsign_top_margin">16dp</dimen>
     <dimen name="logsign_linear_layout_margin">16dp</dimen>
     <dimen name="logsign_padding">10dp</dimen>
     <dimen name="edit_text_height">48dp</dimen>
+    <dimen name="radius">40dp</dimen>
 </resources>
